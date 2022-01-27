@@ -1,0 +1,10 @@
+Package: panConusig
+Title: Pan-cancer copy number signatures analysis
+Description: Includes tools for copy number signature analysis of allele-specific copy number profiles. Includes: matrix generation, simulation of CN profiles, plotting of CN profiles, artifical genome doubling of signatures, assignment of signatures to segments, enumeration of recurrence of signatures across the genome, plotting of signature definitions, simulation of signature recurrence. 
+Depends: R (>= 4.1.0), GenomicRanges, parallel, pbmcapply, stringr
+Imports: GenomicRanges, parallel, pbmcapply, stringr, biomaRt
+Version: 0.1.0
+Date: 26/01/2022
+Author: Christopher Steele
+Maintainer: Christopher Steele <christopher.d.steele.1@gmail.com>
+License: GPL-3
